@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Fit Mafia Tiffin Service
+    </ion-title>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button [routerLink]="'/home'" routerDirection="root">
+        <ion-icon slot="start" name="home"></ion-icon> Home
+      </ion-button>
+      <ion-button [routerLink]="'/about'" routerDirection="forward">
+        <ion-icon slot="start" name="information-circle"></ion-icon> About
+      </ion-button>
+      <ion-button [routerLink]="'/contact'" routerDirection="forward">
+        <ion-icon slot="start" name="call"></ion-icon> Contact
+      </ion-button>
+      <ion-button [routerLink]="'/services'" routerDirection="forward">
+        <ion-icon slot="start" name="restaurant"></ion-icon> Services
+      </ion-button>
+      <ion-button [routerLink]="'/delivery-areas'" routerDirection="forward">
+        <ion-icon slot="start" name="restaurant"></ion-icon> Delivery Areas
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="'/cart'" routerDirection="forward">
+        <ion-icon slot="start" name="cart"></ion-icon> Cart
+      </ion-button>
+      <ion-button [routerLink]="'/profile'" routerDirection="forward">
+        <ion-icon slot="start" name="person"></ion-icon> Profile
+      </ion-button>
+      <ion-button [routerLink]="'/login'" routerDirection="forward">
+        <ion-icon slot="start" name="log-in"></ion-icon> Login
+      </ion-button>
+      <ion-button [routerLink]="'/logout'" routerDirection="forward">
+        <ion-icon slot="start" name="log-out"></ion-icon> Logout
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
